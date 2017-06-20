@@ -24,7 +24,6 @@
 	border-bottom-right-radius: 20px;
 	border-top-right-radius: 20px;
 	margin-left: 0;
-
 }
 
 #searchbar {
@@ -367,12 +366,8 @@ footer {
 	font-weight: bold;
 }
 
-.movie-series-categorie {
-	float: left;
-}
-
-.movie-series-years {
-	float:right;
+.movie-series-categorie, .movie-series-years {
+	text-align: left;
 }
 
 .moreMoviesBtn {
@@ -443,7 +438,6 @@ footer {
 
 #twitter {
 	background-color: #33CCFF;
-
 }
 #facebook {
 	background-color: #3B5998;
@@ -480,7 +474,6 @@ footer {
 /*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 		CONTACT US
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
-
 #contact-big-box {
 	padding-left: 80px;
 }
@@ -496,7 +489,6 @@ footer {
 
 .contactBox-txt {
 	margin-top: 10px;
-	text-align: left;
 }
 
 .contactBox-examples-title {
@@ -517,11 +509,14 @@ ul > .contactBox-examples {
 .btnSocialNetwork-contactBox {
 	width: 120px;
 	height: 35px;
-	text-align: left;
+	text-align: center;
 	font-weight: bold;
 	color: #FFF;
-	margin-bottom: 5px;
+	padding: 7px;
+	margin-bottom: 3px;
 }
+
+
 
 .round-head-icon {
 	background-color: #FF8D1B;
@@ -531,50 +526,10 @@ ul > .contactBox-examples {
 	border-radius: 50px;
 	color: #FFF;
 	padding-top: 10px;
+
 }
 
 .icon-inButton-socialMedias {
-	padding: 0 5px;
-}
-
-.input-contact-form {
-	margin-bottom: 10px;
-	border-radius: 0px;
-}
-
-#btnSubmitForm {
-	background-color: #212121;
-	width: 120px;
-	height: 35px;
-	text-align: center;
-	color: #FFF;
-	border-radius: 0;
-	margin-top: 20px;
-}
-
-/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-		MODAL LOGIN
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
-
-#modalConnect {
-  text-align: center;
-}
-
-#checkStayOnline {
-  float:left;
-}
-
-#create-modalConnect {
-  margin: 20px 0;
-	background-color: #FF8D1B;
-	border: 1px solid #FF8D5B
-}
-
- .modal-login-input {
-  max-width: 300px;
-  margin: 1px 0;
-}
-
-.modalConnect-col {
-  border-right: 2px solid black;
+	float: left;
+	padding: 3px;
 }
