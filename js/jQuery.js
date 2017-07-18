@@ -1,9 +1,9 @@
 $(document).ready(function() {
-
-  $(window).on('load',function(){
+/*
+  $(window).on('load',function(){                 A REACTIVER APRES CORRECTION
       $('#myModalAge').modal('show');
   });
-
+*/
 
   $(".categories-movie-series").mouseenter(function() {
     $(this).css("background-color", "#FF8D1B");
@@ -38,5 +38,15 @@ $(document).ready(function() {
     $(".moreSeriesBox").slideToggle("slow");
     $(".moreSeriesBtn").show();
   });
+
+  $('.link-menu').on('click', function(evt){
+   evt.preventDefault();
+var target = $(this).attr('href');
+$('html, body')
+   .stop()
+   .animate({scrollTop: $(target).offset().top}, 1000 );
+});
+
+
 
 });
